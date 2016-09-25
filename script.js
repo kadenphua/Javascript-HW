@@ -102,9 +102,12 @@ console.log(multiplyArray(1,2,3,4));
 
 // Question 5
 
-var numberOfArguments = function () {
-  return arg.length
+function numberOfArguments() {
+    return arguments.length;
 }
+
+console.log(numberOfArguments("apple"));
+console.log(numberOfArguments("apple","banana"));
 
 // Question 6
 
